@@ -5,6 +5,7 @@ mvnw
 mvnw.cmd
 src/main/resources/
 src/test/
+Pass.java
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/

@@ -1,10 +1,14 @@
 package com.marcind;
 
-//import javax.xml.bind.annotation.XmlRootElement;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
-//@XmlRootElement
+@XmlRootElement
+@Entity
 public class Alien 
 {
+	@Id
 	private String name;
 	private int points;
 	private int id;
